@@ -72,6 +72,7 @@ public class HotelApp_Automation_Saturday {
         String text = order.getAttribute("value");
         System.out.println("Order No:"+text);
 		System.out.println("changes are done");
+		System.out.println("hi");
 
 
 		
