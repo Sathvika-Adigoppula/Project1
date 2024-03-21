@@ -71,6 +71,7 @@ public class HotelApp_Automation_Saturday {
         WebElement order = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("order_no")));
         String text = order.getAttribute("value");
         System.out.println("Order No:"+text);
+		System.out.println("changes are done");
 
 
 		
